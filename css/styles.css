@@ -5,10 +5,44 @@
 }
 
 body {
-  background-color: #848b7d;
+  background-color: white;
 }
-
-.header {
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 25px 5%;
+}
+#navBar h1 {
+  font-size: 40px;
+  padding: 10px;
+  width: 40%;
+  font-weight: 600;
+}
+#navigation {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#navigation p {
+  cursor: pointer;
+  text-decoration: none;
+}
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 25%;
+}
+.icons img {
+  margin: 15px;
+  cursor: pointer;
+}
+.highlight {
+  color: #ff6200;
+  font-weight: 700;
+}
+/* .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -44,6 +78,7 @@ body {
   display: inline-block;
   margin-left: 25px;
 }
+*/
 .first {
   padding: 5%;
 }
@@ -53,7 +88,7 @@ a {
 }
 
 p {
-  font-size: 16px;
+  font-size: 25px;
 }
 
 .hero {
@@ -148,4 +183,57 @@ img {
   float: left;
   margin-right: 25px;
   size: 50px;
+}
+.subHeading {
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: 300px;
+  margin: 50px auto;
+}
+#categoryGrid {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 300px 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "ameglio artist1 artist2 artist2"
+    "artist3 artist3 artist2 artist2"
+    "artist4 artist4 artist4 artist4";
+}
+#ameglio {
+  grid-area: ameglio;
+  background-image: url("../assets/images/ameglio.jpg");
+}
+#artist1 {
+  grid-area: artist1;
+  background-image: url("../assets/images/artist1.png");
+}
+#artist2 {
+  grid-area: artist2;
+  background-image: url("../assets/images/artist2.png");
+}
+#artist3 {
+  grid-area: artist3;
+  background-image: url("../assets/images/artist3.png");
+}
+#artist4 {
+  grid-area: artist4;
+  background-image: url("../assets/images/sunset.jpg");
+}
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+.heading {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  height: 25px;
+  color: white;
+  font-size: 18px;
+  border-bottom: 5px solid #ff6200;
 }
