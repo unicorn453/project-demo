@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #848b7d;
+}
+
+.header {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #b53822;
+  color: #ffffff;
+}
+.header p {
+  color: grey;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+.header h1 .seo {
+  color: #d9dcd6;
+}
+
+.header ul {
+  position: relative;
+  bottom: 55px;
+  display: inline;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+.first {
+  padding: 5%;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../assets/images/painting1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+  size: 20px;
+}
+
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+.content img {
+  max-height: 200px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+article {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #bb7300;
+  color: #ffffff;
+}
+
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #bda425;
+}
+
+h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+aside {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+.benefits img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b53822;
+  padding: 20px;
+}
+.ig,
+.map,
+.pn {
+  padding: 30px;
+}
+img {
+  float: left;
+  margin-right: 25px;
+  size: 50px;
+}
