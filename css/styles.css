@@ -7,6 +7,7 @@
 body {
   background-color: white;
 }
+/*
 #navBar {
   display: flex;
   flex-direction: row;
@@ -42,6 +43,7 @@ body {
   color: #ff6200;
   font-weight: 700;
 }
+/*
 /* .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -90,7 +92,17 @@ a {
 p {
   font-size: 25px;
 }
-
+/*changing height of navbar*/
+.navbar {
+  height: 100px;
+}
+.nav-item {
+  padding-right: 60px;
+  font-size: 20px;
+}
+.navbar-brand {
+  font-size: 30px;
+}
 .hero {
   height: 500px;
   width: 100%;
